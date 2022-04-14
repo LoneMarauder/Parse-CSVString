@@ -40,3 +40,5 @@ foreach ($string in $stringArray){
 # Finally, dump the final value of the $newArray variable.  This will be the last line so it is almost certainly less than the full character limit.
 # There will probably be a bug if the last "split up" line just so happens to be the exact length of the $Chars variable.
 # It can be fixed in version 2.  Maybe.
+
+$newArray
