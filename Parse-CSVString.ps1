@@ -1,13 +1,13 @@
 # Pass the string and length as parameters
-#Param(
-#    [Parameter(Mandatory = $true)]
-#    [String]$String,
-#    [Int16]$Chars
-#)
+Param(
+    [Parameter(Mandatory = $true)]
+    [String]$String,
+    [Int16]$Chars
+)
 
 # DEBUG Items here, uncomment the "Param" block above to use these
-$String = 'relation,charity,argument,passenger,difference,technology,income,decision,music,topic,poetry,sector,situation,ad,midnight,extent,union,painting,response,organization,security,highway,appearance,employer,departure,transportation,penalty,library,error,emotion'
-$Chars = 200
+# $String = 'relation,charity,argument,passenger,difference,technology,income,decision,music,topic,poetry,sector,situation,ad,midnight,extent,union,painting,response,organization,security,highway,appearance,employer,departure,transportation,penalty,library,error,emotion'
+# $Chars = 200
 
 # Split the comma-separated string into an array
 $stringArray = $String.Split(",")
